@@ -1,3 +1,3 @@
 # slackreads :books:
 
-Post book excepts to a Slack channel.
+Post book excerpts to a Slack channel.
