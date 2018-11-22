@@ -1,7 +1,7 @@
 {
   "name": "slack-the-war-of-art",
   "version": "0.1.0",
-  "description": "Post book excepts to a Slack channel.",
+  "description": "Post book excerpts to a Slack channel.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "author": "Linsy Joyner",
   "license": "ISC",
   "dependencies": {
+    "node-cron": "^2.0.3",
     "node-fetch": "^2.1.2"
   },
   "devDependencies": {}
