@@ -27,18 +27,18 @@ cron.schedule('* * * * * *', () => {
   const bookFinished = posts.length === bookExcerpts.length;
 
   if (!bookFinished) {
-    console.log('posts starting value ', posts);
 
     const excerpt = bookExcerpts[posts.length].text
     sendExcerptToSlack(excerpt)
 
     let newPosts = [...posts, 'chapter ' + (posts.length + 1)]
-    console.log('newPosts ', newPosts);
-
     posts = newPosts // update posts in database
 
     console.log('--------------- \n')
+
   } else {
+
     process.exit();
+
   }
 });
