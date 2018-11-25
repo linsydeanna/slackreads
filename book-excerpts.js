@@ -1,4 +1,4 @@
-const book = [
+const bookExcerpts = [
   {
     chapter: 1,
     postAll: true,
@@ -16,4 +16,4 @@ const book = [
   },
 ]
 
-module.exports = book
+module.exports = bookExcerpts
