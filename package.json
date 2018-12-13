@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.1.2"
+    "node-fetch": "^2.1.2",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
   },
   "devDependencies": {}
 }
